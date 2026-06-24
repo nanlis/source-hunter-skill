@@ -16,6 +16,37 @@ Source Hunter 是一个 Codex/Agent skill，用来系统化收集、验证、排
 
 ## 安装
 
+推荐先 clone 仓库，再运行安装脚本。
+
+Windows PowerShell:
+
+```powershell
+git clone https://github.com/nanlis/source-hunter-skill
+.\source-hunter-skill\install.ps1
+```
+
+macOS / Linux:
+
+```bash
+git clone https://github.com/nanlis/source-hunter-skill
+sh ./source-hunter-skill/install.sh
+```
+
+默认安装到：
+
+```text
+%USERPROFILE%\.codex\skills\source-hunter   # Windows
+~/.codex/skills/source-hunter               # macOS / Linux
+```
+
+如果设置了 `CODEX_HOME`，会安装到：
+
+```text
+$CODEX_HOME/skills/source-hunter
+```
+
+也可以手动安装：
+
 把 `source-hunter` 文件夹复制到你的 Codex skills 目录，例如：
 
 ```powershell
@@ -92,6 +123,37 @@ It is not a magic search prompt. It is a source-discipline layer: it pushes the 
 - Supports quick source scans, citation repair, deeper review, and material gathering.
 
 ## Install
+
+Recommended: clone the repository and run the install script.
+
+Windows PowerShell:
+
+```powershell
+git clone https://github.com/nanlis/source-hunter-skill
+.\source-hunter-skill\install.ps1
+```
+
+macOS / Linux:
+
+```bash
+git clone https://github.com/nanlis/source-hunter-skill
+sh ./source-hunter-skill/install.sh
+```
+
+By default, the skill is installed to:
+
+```text
+%USERPROFILE%\.codex\skills\source-hunter   # Windows
+~/.codex/skills/source-hunter               # macOS / Linux
+```
+
+If `CODEX_HOME` is set, it installs to:
+
+```text
+$CODEX_HOME/skills/source-hunter
+```
+
+Manual install:
 
 Copy the `source-hunter` folder into your Codex skills directory, for example:
 
