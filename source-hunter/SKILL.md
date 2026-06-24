@@ -41,6 +41,7 @@ Read `references/source-quality-standard.md` when the task is high stakes, asks 
    - Start with a 3-5 sentence TL;DR source map: core lineage, key disputes, current frontier.
    - Then list sources by tier from L1 to L4, ordered by importance within each tier.
    - If a tier has limited coverage, say so immediately under that tier and give exact follow-up search terms.
+   - Never force-fill a weak tier for visual completeness. A sparse, honest tier is better than a padded source list.
    - End with 2-3 precise search queries and a short next-step suggestion based on the user's intended use.
 
 ## Required Source Fields
@@ -72,3 +73,4 @@ For review/depth mode, add:
 - Do not treat a vendor blog as neutral evidence when better third-party or academic evidence exists.
 - Do not overfit to AI sources; choose field-specific databases and preprint platforms.
 - Do not present all sources as equally strong; tier and label them.
+- Do not sacrifice source quality to make every tier look complete. Mark missing or thin coverage instead.

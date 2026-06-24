@@ -32,7 +32,13 @@ source-hunter/
   agents/openai.yaml
   references/output-templates.md
   references/source-quality-standard.md
+examples/
+  context-engineering.md
 ```
+
+## Example
+
+See [`examples/context-engineering.md`](examples/context-engineering.md) for a worked example on context engineering for AI agents. It shows the intended behavior when one source tier is weaker than another: mark thin coverage instead of padding the list with weak sources.
 
 ## Validation
 
