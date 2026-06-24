@@ -1,5 +1,7 @@
 # Source Hunter Skill
 
+![Source Hunter social preview](assets/social-preview.png)
+
 中文 | [English](#english)
 
 Source Hunter 是一个 Codex/Agent skill，用来系统化收集、验证、排序和结构化高质量信源。它适合研究、补引用、写综述、事实核查，以及任何需要“先把信源站稳”的写作任务。
