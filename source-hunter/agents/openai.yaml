@@ -1,0 +1,4 @@
+interface:
+  display_name: "Source Hunter"
+  short_description: "Find and verify high-quality sources for any research topic."
+  default_prompt: "Use $source-hunter to collect verified, high-quality sources for this topic: context engineering for AI agents."
